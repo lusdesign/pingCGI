@@ -1,14 +1,8 @@
-$project
+pingCGI
 ========
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+A CGI-Bash Script for pinging a host - JSON Output.
 
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
 
 Features
 --------
@@ -19,23 +13,37 @@ Features
 Installation
 ------------
 
-Install $project by running:
+Install pingCGI:
 
-    install project
+    copy "ping.cgi" to a directory of your webserver which supports serving CGI-scripts
+	
+
+Usage
+-----
+
+Open the script in a web-browser with the following parameters
+> ping.cgi?google.de
+or
+> ping.cgi?host=google.de&count=2
+
+*note: the script-execution is equal to "ping -c 2 google.de"
+Feel free to set the count to everything you want*
+
+	
 
 Contribute
 ----------
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+- Issue Tracker: coming soon...
+- Source Code: github.com/lusdesign/pingCGI
 
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
+contact us via mail: info@lus-design.de
 
 License
 -------
 
-The project is licensed under the BSD license.
+The project is licensed under the  GNU GENERAL PUBLIC LICENSE (Version 3).
