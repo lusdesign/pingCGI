@@ -15,7 +15,7 @@ Installation
 
 Install pingCGI:
 
-    copy "ping.cgi" to a directory of your webserver which supports serving CGI-scripts
+- copy "ping.cgi" to a directory of your webserver which supports serving CGI-scripts
 	
 
 Usage
@@ -26,8 +26,8 @@ Open the script in a web-browser with the following parameters
 or
 > ping.cgi?host=google.de&count=2
 
-*note: the script-execution is equal to "ping -c 2 google.de"
-Feel free to set the count to everything you want*
+    *note: the script-execution is equal to "ping -c 2 google.de"*
+    *Feel free to set the count to everything you want*
 
 	
 
