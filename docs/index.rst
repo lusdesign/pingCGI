@@ -21,13 +21,17 @@ Install pingCGI:
 Usage
 -----
 
-Open the script in a web-browser with the following parameters
+Open the script in a web-browser with the following parameters:
+
 > ping.cgi?google.de
+
 or
+
 > ping.cgi?host=google.de&count=2
 
-    *note: the script-execution is equal to "ping -c 2 google.de"*
-    *Feel free to set the count to everything you want*
+
+*note: the script-execution is equal to "ping -c 2 google.de"*
+Feel free to set the count to everything you want
 
 	
 
